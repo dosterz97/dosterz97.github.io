@@ -1,5 +1,135 @@
-
 body
 {
-    color:red;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    background-color:white;
 }
+h2
+{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:50px;
+    padding:40px;
+    margin:0px;
+}
+h1
+{
+    text-transform:uppercase;
+}
+h3
+{
+    text-transform:uppercase;
+    font-size:24px;
+}
+a:hover
+{
+    text-decoration:none;
+}
+a:active
+{
+    text-decoration:none;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus 
+{
+    background-color: #07233F;
+    color: grey;
+}
+.navbar-header > a:hover
+{
+    background-color: #07233F;
+    color: grey;
+}
+.navbar-header > a
+{
+    background-color: #07233F;
+    color: white;
+}
+.navstyles
+{
+    font-size:25px;
+    margin-bottom:-60px;
+    background-color:#07233F;
+    border-color:#07233F;
+}
+
+.navstyles a
+{
+    margin: 25px 5px 25px 5px;
+    color:white;
+}
+
+.brand 
+{
+    padding: 30px 15px 25px 5px;
+    font-size:60px;
+    color:white;
+    border:none;
+}
+.centerImage
+{
+    float:left;
+}
+
+.bgoverride a
+{
+    border-left :solid 5px white;
+}
+
+.about
+{
+    color:white;
+    background-color:black;
+    float:left;
+     padding:0px;
+     text-align:center;
+     background-image:url(https://3f5cff2919dc12baae1dd2e318cd552ad062920e-www.googledrive.com/host/0B_Xm-Frh1l1eZFRjUlpzbmJrUUE)
+}
+
+.about p
+{
+    font-size:18px;
+    padding:25px 0 25px 0;
+}
+
+.leftAbout
+{
+    background-color:white;
+    color:black;
+}
+
+
+.digitalMedia
+{
+     float:left;
+     padding:0px;
+}
+
+.code
+{
+    padding:0px;
+    float:left;
+}
+
+.header
+{
+     background-color:#07233F;
+    color:white;
+   
+}
+
+.whitebg
+{
+    background-color:white;
+}
+.borderright
+{
+    border-right: 5px solid black;
+}
+@media(min-width: 1255px)
+{
+    .navstyles a
+    {
+        padding:25px 20px 25px 20px;
+    }
+}
+
