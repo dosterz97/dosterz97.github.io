@@ -57,6 +57,15 @@ a:active
     margin: 25px 5px 25px 5px;
     color:white;
 }
+.nomargin img
+{
+    margin:0px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
 
 .brand 
 {
