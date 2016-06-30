@@ -29,6 +29,18 @@ a:active
 {
     text-decoration:none;
 }
+#white a
+{
+    color:white;
+}
+#white a:hover
+{
+    color:grey;
+}
+#white a:active
+{
+    text-decoration:none;
+}
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus 
 {
     background-color: #07233F;
@@ -175,7 +187,8 @@ a:active
 
 .whitebg
 {
-    background-color:white;
+    background-color:rgb(255,255,255);
+    opacity:0.9;
 }
 .borderright
 {
@@ -187,4 +200,9 @@ a:active
     {
         padding:25px 20px 25px 20px;
     }
+}
+
+.carousel-inner img
+{
+    width:100%;
 }
