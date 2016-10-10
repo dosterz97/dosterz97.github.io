@@ -95,7 +95,7 @@ a:active
 {
     height:1000px;
     background-size:cover;
-    background-image:url(https://86de655ec80b74f7d5f383571e3adb7311653f0f-www.googledrive.com/host/0B_Xm-Frh1l1edEFVT25MSGRyQ3c);
+    background-image:url("Images/workspace.jpg");
     text-align:center;
     float:left;
 }
@@ -126,7 +126,7 @@ a:active
     float:left;
      padding:0px;
      text-align:center;
-     background-image:url(https://8ea4908cba230d6857580c8b98645d1194d49c66-www.googledrive.com/host/0B_Xm-Frh1l1eNm5PeUlWTlhwNlE);
+     background-image:url("Images/vault.jpg");
 }
 
 .about p
@@ -159,7 +159,7 @@ a:active
     text-align:center;
     padding:0px;
     float:left;
-    background-image:url(https://503c18f8d809709ac54ea23d1576b257ecd7a553-www.googledrive.com/host/0B_Xm-Frh1l1eVm4tamVuenRLb1k);
+    background-image:url("Images/code.png");
     color:white;
     height:883px;
     background-size:cover;
