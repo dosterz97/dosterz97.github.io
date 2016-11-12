@@ -233,6 +233,13 @@ a:active
 		padding:15px 20px 15px 20px;	
 	}
 }
+
+@media(max-width:500px)
+{
+    .brand {
+        font-size:40px;
+    }
+}
 .carousel-inner img
 {
     width:100%;
