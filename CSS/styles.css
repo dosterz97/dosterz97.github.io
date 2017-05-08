@@ -222,6 +222,13 @@ footer > div > div > a > span {
 	font-style: italic;
 	text-align: center;
 }
+.header a{
+	color:#222;
+}
+.header a:hover {
+	color: #666;
+	text-decoration: none;
+}
 
 .header {
 	padding-top:200px;
