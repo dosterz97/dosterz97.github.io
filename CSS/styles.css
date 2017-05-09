@@ -165,6 +165,9 @@ h1 {
 	background-image: url(../Images/freeride.png);
 }
 
+.adobecert {
+	background-image: url(../Images/lobby-bg-doccloud._adc-identity-1400x860.jpg);
+}
 .info > .col-sm-4 {
 	text-align: center;
 	font-size: 28px;
