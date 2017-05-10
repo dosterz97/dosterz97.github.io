@@ -23,6 +23,10 @@ h1 {
 
 }
 
+.header {
+	padding-top:200px;	
+}
+
 .bio > .header {
 	text-align: center;
 }
