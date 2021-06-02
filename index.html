@@ -1,125 +1,14 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Home</title>
-<link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
-<link href="CSS/styles.css" rel = "stylesheet"/>
-</head>
-
-<body>
-  	<nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		  <a class="navbar-brand" href="#">
-			<h1>Zach Doster</h1></a>
-		</div>
-
-		<!-- Collect the nav links, forms, and o ther content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  
-		  
-		  <ul class="nav navbar-nav navbar-right">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="Projects/projects.html">Projects</a></li>
-		  </ul>
-		</div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-	
-	<div class="container-fluid header-image-home">
-		<img class="img-responsive" src="Images/Headerplaceholder.jpg" alt="my header image"/>
-	</div>
-	<div class="white-bg">
-		<div class="container home">
-			<div class="bio row">
-				<div class="col-xs-12 header"><h2>About Me</h2></div>
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8 col-xs-12">
-				<p>I am Zach Doster, an 
-				<script>
-					var d = new Date();
-					document.write(d.getFullYear() - 1999);
-				</script>
-				 year old who loves to learn new things and compete. My hobbies include track and field and other outdoor activities such as camping and hiking. My passion is programming but I like to explore digital media and photography as other options for work and as a way to improve myself as a programmer.
-				</p>
-				</div>
-			</div>
-
-			<div class="programming row">
-				<div class="col-sm-1"></div>
-				<div class="col-xs-12 col-sm-3 homeImage"><img class="img-responsive" src="Images/code.jpg" alt="code"></div>
-				<div class="col-xs-12 col-sm-7 homeText">
-					<h2>Programming</h2>
-					<p>I have been programming since 2013. I have started with C++, learning basic concepts such as binary, encapsulation, and Object Oriented Programming. I have learned other languages including Java, Python, PHP, Swift, and Objective C. I also have a lot of experience with web design, as I have worked on websites, Wordpress and made from scratch using HTML, CSS, Javascript, and JQuery. I currently have an internship with a small mobile app startup called <a href="http://quarkworks.net/ ">Quarkworks</a> in Columbia, MO.</p>
-				</div>
-			</div>
-
-			<div class="design row">
-				<div class="col-sm-1"></div>
-				<div class="col-xs-12 col-sm-3 homeImage"><img class="img-responsive" src="Images/digitalmedia.jpg" alt="design"></div>
-				<div class="col-xs-12 col-sm-7 homeText">
-					<h2>Digital Media & Design</h2>
-					<p>I have also been in Digital Media since 2013 with experience with raster(Photoshop) and vector(Illustrator) image editing, along with experience in making videos(Premiere), and making layouts for magazines and other page spreads(InDesign). I am certified in multiple Adobe programs, Photoshop, Illustrator, and Premiere.</p>
-				</div>
-			</div>
-
-			<div class="photography row">
-				<div class="col-sm-1"></div>
-				<div class="col-xs-12 col-sm-3 homeImage"><img class="img-responsive" src="Images/photography.jpg" alt="photography"></div>
-				<div class="col-xs-12 col-sm-7 homeText">
-					<h2>Photography</h2>
-					<p>Photography is one my projects that I used to sharpen my attention to detail, learn more about technology, and be able to work with other types of people, as I will be able to work more effectively in different environments, especially those that involve video and photography.</p>
-				</div>
-			</div>
-			
-		</div>
-		<footer>
-			<div class="info row">
-				<div class="col-xs-12">
-					<h2>My Info</h2>
-				</div>
-			</div>
-			<div class="info row">
-				<div class="col-xs-12 col-sm-4">
-					<a href="mailto:dosterz97@gmail.com" target="_blank">
-					<h3>Email</h3>
-					<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
-					</a>
-				</div>
-				<div class="col-xs-12 col-sm-4">
-					<a target="_blank" href="https://docs.google.com/document/d/12Cw05IhJ_gaCLAwnS9lKvxyKXe32I5Okojd9bJyjP-4/edit?usp=sharing">
-					<h3>Resume</h3>
-					<span class="glyphicon glyphicon-user" aria-hidden="true" ></span>
-					</a>
-				</div>
-				<div class="col-xs-12 col-sm-4">
-					<a target="_blank" href="https://github.com/dosterz97">
-					<h3>Github</h3>
-					<span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
-					</a>
-				</div>
-			</div>
-			<div class="col-xs-12 col-xs-4">
-				<!-- brand image?-->
-			</div>
-			<div class="footer-links col-xs-12 col-xs-8">
-
-			</div>
-		</footer>	
-	</div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.js"></script>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShadowCast App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <canvas id="globalCanvas"></canvas>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
-
-
